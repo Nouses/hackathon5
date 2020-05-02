@@ -1,8 +1,40 @@
-ul{
+*{
+    font-family: Helvetica;
+}
+/* CSS para la parte del nav */
+.nav_flex-container{
     display: flex;
-
+    padding: 5px;
+    justify-content: space-around;
 }
 
-li{
-    padding: 20px;
+.header_div-logo{
+    margin-right: auto;
+  }
+
+a{
+    padding: 5px 20px;
+    list-style: none;
+    text-decoration: none;
+    color:#1F3F68;
+    font-weight: bold;
+    margin: 10px;
 }
+
+a:hover{
+    background: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+/* CSS para el fondo azul del header*/
+
+.header_div{
+    background: url(../images/banner.png);
+    color: white ;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+}
+
+

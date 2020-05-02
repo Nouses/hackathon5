@@ -6,33 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="images/">
-    <link rel="stylesheet" href="fonts">
+    <script src="https://kit.fontawesome.com/462bb5bbfb.js" crossorigin="anonymous"></script>
     <title>Hackathon CSS</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Espectaculo</li>
-                <li>Deportes</li>
+        <!--Cabecera para el menu inicial-->
+        <nav class="nav_flex-container">
+            <div class="header_div-logo">
+                <span class="fa-stack">
+                    <i class="far fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-flag fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <ul class="header_nav-ul">
+                <a href="#">Home</a>
+                <a href="#">Espectaculo</a>
+                <a href="#">Deportes</a>
             </ul>
         </nav>
 
-        <div>
+        <div class="header_div">
             <h1>Blog Afrianska</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam, doloremque nobis minima
                 nesciunt velit nisi excepturi iusto omnis ratione.</p>
         </div>
+        <br>
     </header>
 
     <main>
         <input type="search" placeholder="Buscar Articulos">
         <br>
-        <div>
             <h2>Popular</h2>
-            <div>
+           <!-- Section de Primer anuncio despues de cabecera-->
+            <section>
                 <h2>Feugiat sodales at nullam tells</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
                     expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
@@ -45,168 +57,171 @@
                 </div>
 
                 <img src="images/img-post-1.png" alt="">
-            </div>
+            </section>
             <br>
-            <div>
-                <h2>Feugiat sodales at nullam tells</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
-                    expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                    accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
-                    eaque.
-                </p>
+            <section>
                 <div>
-                    <p>Samantha Leuthex</p>
-                    <p>May 5, 3 min read</p>
+                    <h2>Feugiat sodales at nullam tells</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
+                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
+                        eaque.
+                    </p>
+                    <div>
+                        <p>Samantha Leuthex</p>
+                        <p>May 5, 3 min read</p>
+                    </div>
+    
+                    <img src="images/img-post-2.png" alt="">
                 </div>
-
-                <img src="images/img-post-2.png" alt="">
-            </div>
-            <br>
-            <div>
-                <h2>Feugiat sodales at nullam tells</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
-                    expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                    accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
-                    eaque.
-                </p>
+                <br>
                 <div>
-                    <p>Samantha Leuthex</p>
-                    <p>May 5, 3 min read</p>
+                    <h2>Feugiat sodales at nullam tells</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
+                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
+                        eaque.
+                    </p>
+                    <div>
+                        <p>Samantha Leuthex</p>
+                        <p>May 5, 3 min read</p>
+                    </div>
+    
+                    <img src="images/img-post-3.png" alt="">
                 </div>
-
-                <img src="images/img-post-3.png" alt="">
-            </div>
-            <br>
-            <div>
-                <h2>Feugiat sodales at nullam tells</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
-                    expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                    accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
-                    eaque.
-                </p>
+                <br>
                 <div>
-                    <p>Samantha Leuthex</p>
-                    <p>May 5, 3 min read</p>
+                    <h2>Feugiat sodales at nullam tells</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta esse
+                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore nostrum
+                        eaque.
+                    </p>
+                    <div>
+                        <p>Samantha Leuthex</p>
+                        <p>May 5, 3 min read</p>
+                    </div>
+    
+                    <img src="images/img-post-4.png" alt="">
+                    <h3>SEE ALL POPULAR ARTICLE</h3>
                 </div>
-
-                <img src="images/img-post-4.png" alt="">
-                <h3>SEE ALL POPULAR ARTICLE</h3>
-            </div>
+            <!--Section del segundo grupo de anuncios antes del footer-->    
+            </section>
             <br>
             <hr>
-            <div>
-                <h2>ALL ARTICLE</h2>
+            <section>
                 <div>
-                    <h2>Feugiat sodales at nullam tells</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
-                        esse
-                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
-                        nostrum
-                        eaque.
-                    </p>
+                    <h2>ALL ARTICLE</h2>
                     <div>
-                        <p>Samantha Leuthex</p>
-                        <p>May 5, 3 min read</p>
+                        <h2>Feugiat sodales at nullam tells</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
+                            esse
+                            expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                            accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
+                            nostrum
+                            eaque.
+                        </p>
+                        <div>
+                            <p>Samantha Leuthex</p>
+                            <p>May 5, 3 min read</p>
+                        </div>
+    
+                        <img src="images/img-post-5.png" alt="">
                     </div>
-
-                    <img src="images/img-post-5.png" alt="">
-                </div>
-                <br>
-                <div>
-                    <h2>Feugiat sodales at nullam tells</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
-                        esse
-                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
-                        nostrum
-                        eaque.
-                    </p>
+                    <br>
                     <div>
-                        <p>Samantha Leuthex</p>
-                        <p>May 5, 3 min read</p>
+                        <h2>Feugiat sodales at nullam tells</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
+                            esse
+                            expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                            accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
+                            nostrum
+                            eaque.
+                        </p>
+                        <div>
+                            <p>Samantha Leuthex</p>
+                            <p>May 5, 3 min read</p>
+                        </div>
+    
+                        <img src="images/img-post-6.png" alt="">
                     </div>
-
-                    <img src="images/img-post-6.png" alt="">
-                </div>
-                <br>
-                <div>
-                    <h2>Feugiat sodales at nullam tells</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
-                        esse
-                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
-                        nostrum
-                        eaque.
-                    </p>
+                    <br>
                     <div>
-                        <p>Samantha Leuthex</p>
-                        <p>May 5, 3 min read</p>
+                        <h2>Feugiat sodales at nullam tells</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
+                            esse
+                            expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                            accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
+                            nostrum
+                            eaque.
+                        </p>
+                        <div>
+                            <p>Samantha Leuthex</p>
+                            <p>May 5, 3 min read</p>
+                        </div>
+    
+                        <img src="images/img-post-7.png" alt="">
                     </div>
-
-                    <img src="images/img-post-7.png" alt="">
-                </div>
-                <br>
-                <div>
-                    <h2>Feugiat sodales at nullam tells</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
-                        esse
-                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
-                        nostrum
-                        eaque.
-                    </p>
+                    <br>
                     <div>
-                        <p>Samantha Leuthex</p>
-                        <p>May 5, 3 min read</p>
+                        <h2>Feugiat sodales at nullam tells</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
+                            esse
+                            expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                            accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
+                            nostrum
+                            eaque.
+                        </p>
+                        <div>
+                            <p>Samantha Leuthex</p>
+                            <p>May 5, 3 min read</p>
+                        </div>
+    
+                        <img src="images/img-post-8.png" alt="">
                     </div>
-
-                    <img src="images/img-post-8.png" alt="">
-                </div>
-                <br>
-                <div>
-                    <h2>Feugiat sodales at nullam tells</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
-                        esse
-                        expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
-                        accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
-                        nostrum
-                        eaque.
-                    </p>
+                    <br>
                     <div>
-                        <p>Samantha Leuthex</p>
-                        <p>May 5, 3 min read</p>
+                        <h2>Feugiat sodales at nullam tells</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt numquam recusandae est soluta
+                            esse
+                            expedita repudiandae suscipit labore ipsam dicta, vitae molestiae cupiditate debitis. Ut in
+                            accusamus sunt asperiores nulla eum consectetur ad, dolores nam deleniti adipisci tempore
+                            nostrum
+                            eaque.
+                        </p>
+                        <div>
+                            <p>Samantha Leuthex</p>
+                            <p>May 5, 3 min read</p>
+                        </div>
+    
+                        <img src="images/img-post-9.png" alt="">
                     </div>
-
-                    <img src="images/img-post-9.png" alt="">
+                    <br>
+    
+                    <div>
+                        <a href="#">Old Post</a>
+    
+                        <a href="#">New Post</a>
+                    </div>
+    
                 </div>
-                <br>
-
-                <div>
-                    <a href="#">Old Post</a>
-
-                    <a href="#">New Post</a>
-                </div>
-
-            </div>
-
-        </div>
+            </section>
         <br>
         <hr>
     </main>
 
     <footer>
-        <div>
+        <section>
             <h2>Intersted to woek with our team?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam atque eveniet, ipsum, at
                 dolore aspernatur, similique minima nisi odio ut sequi? Dolorum cum ullam cumque labore neque iure
                 expedita?</p>
 
             <input type="submit" value="Let´s Talk">
-        </div>
+        </section>
         <br>
         <hr>
-        <div>
+        <section>
             <div>
                 <h2>Afrianska</h2>
                 <p>A. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -228,7 +243,7 @@
                 <p>Youtube</p>
             </div>
             <p>2019 © Afrianska. All right reserved</p>
-        </div>
+        </section>
     </footer>
 
 </body>
